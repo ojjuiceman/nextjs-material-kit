@@ -20,6 +20,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
+import LandingPage from "./landing";
 
 import PageChange from "/components/PageChange/PageChange.js";
 
@@ -82,9 +83,9 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>Overtime Web Marketing</title>
         </Head>
-        <Component {...pageProps} />
+        <LandingPage {...pageProps} />
       </React.Fragment>
     );
   }

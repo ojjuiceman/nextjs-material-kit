@@ -34,12 +34,12 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="OJOVERTIME"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "blue"
         }}
         {...rest}
       />
@@ -47,12 +47,13 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Websites that sell</h1>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+                A website serves as a 24/7 online storefront providing value in multiple avenues. Getting a professionally done website
+                can help your business reach new customers, provide information, make sales and anything else that is needed
+                to reach your companies goals. OJOVERTIME offers website development, mobile apps, and digital marketing packages for
+                companies just starting to get online and companies that need proper management to get value
+                out of their online properties. Get in touch today to figure out how to improve your online business today.
               </h4>
               <br />
               <Button
@@ -72,7 +73,6 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          <TeamSection />
           <WorkSection />
         </div>
       </div>

@@ -3,9 +3,10 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
+import CommunicationBusiness from "material-ui/svg-icons/communication/business";
 import Fingerprint from "@material-ui/icons/Fingerprint";
 import ActionPageview from "material-ui/svg-icons/action/pageview";
+
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
@@ -31,8 +32,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Website Development"
+              description="Get a website developed for your business. Creating a design and user experience that accompolishes your marketing goals."
               icon={ActionPageview}
               iconColor="primary"
               vertical
@@ -40,19 +41,10 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
-              iconColor="success"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
-              iconColor="danger"
+              title="Digital Marketing"
+              description="Connect with your target audience and gain more customers. Marketing services for social media, SEO and copywriting."
+              icon={CommunicationBusiness}
+              iconColor="primary"
               vertical
             />
           </GridItem>

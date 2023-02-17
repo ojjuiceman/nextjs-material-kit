@@ -3,8 +3,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import CommunicationBusiness from "material-ui/svg-icons/communication/business";
-import { ActionPageview } from "material-ui/svg-icons";
+import WebIcon from '@material-ui/icons/Web';
+import ContactlessIcon from '@material-ui/icons/Contactless';
 
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
@@ -33,7 +33,7 @@ export default function ProductSection() {
             <InfoArea
               title="Website Development"
               description="Get a website developed for your business. Creating a design and user experience that accompolishes your marketing goals."
-              icon={ActionPageview}
+              icon={WebIcon}
               iconColor="primary"
               vertical
             />
@@ -42,7 +42,7 @@ export default function ProductSection() {
             <InfoArea
               title="Digital Marketing"
               description="Connect with your target audience and gain more customers. Marketing services for social media, SEO and copywriting."
-              icon={CommunicationBusiness}
+              icon={ContactlessIcon}
               iconColor="primary"
               vertical
             />

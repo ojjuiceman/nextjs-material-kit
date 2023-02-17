@@ -4,8 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
 import CommunicationBusiness from "material-ui/svg-icons/communication/business";
-import Fingerprint from "@material-ui/icons/Fingerprint";
-import ActionPageview from "material-ui/svg-icons/action/pageview";
+import { ActionPageview } from "material-ui/svg-icons";
 
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";

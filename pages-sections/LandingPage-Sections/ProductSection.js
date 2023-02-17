@@ -3,9 +3,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
+import ActionPageview from "material-ui/svg-icons/action/pageview";
 // core components
 import GridContainer from "/components/Grid/GridContainer.js";
 import GridItem from "/components/Grid/GridItem.js";
@@ -33,8 +33,8 @@ export default function ProductSection() {
             <InfoArea
               title="Free Chat"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
-              iconColor="info"
+              icon={ActionPageview}
+              iconColor="primary"
               vertical
             />
           </GridItem>

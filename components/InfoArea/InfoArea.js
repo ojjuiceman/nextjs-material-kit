@@ -36,7 +36,7 @@ export default function InfoArea(props) {
 }
 
 InfoArea.defaultProps = {
-  iconColor: "gray"
+  iconColor: "primary"
 };
 
 InfoArea.propTypes = {

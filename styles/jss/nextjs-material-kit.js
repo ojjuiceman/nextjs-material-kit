@@ -1,18 +1,4 @@
-/*!
 
- =========================================================
- * NextJS Material Kit - v1.2.0 based on Material Kit - v2.0.2 and Material Kit React - v1.8.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
- * Copyright 2021 Creative Tim (https://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/main/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
 
 // ##############################
 // // // Variables - Styles that are used on more than one component
@@ -90,10 +76,10 @@ const defaultFont = {
   lineHeight: "1.5em",
 };
 
-const primaryColor = "#9c27b0";
+const primaryColor = "#008037";
 const warningColor = "#ff9800";
 const dangerColor = "#f44336";
-const successColor = "#4caf50";
+const successColor = "#1fbddf";
 const infoColor = "#00acc1";
 const roseColor = "#e91e63";
 const grayColor = "#999999";

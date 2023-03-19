@@ -29,7 +29,7 @@ export default function ProductSection() {
       </GridContainer>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6}>
             <InfoArea
               title="Website Development"
               description="Get a website developed for your business. Creating a design and user experience that accompolishes your marketing goals."
@@ -38,7 +38,7 @@ export default function ProductSection() {
               vertical
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={6}>
             <InfoArea
               title="Digital Marketing"
               description="Connect with your target audience and gain more customers. Marketing services for social media, SEO and copywriting."

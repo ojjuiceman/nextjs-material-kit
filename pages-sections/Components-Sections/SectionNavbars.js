@@ -399,28 +399,10 @@ export default function SectionNavbars() {
                         classes.socialIcons +
                         " " +
                         classes.marginRight5 +
-                        " fab fa-facebook"
+                        " fab fa-github"
                       }
                     />{" "}
-                    Facebook
-                  </Button>
-                </ListItem>
-                <ListItem className={classes.listItem}>
-                  <Button
-                    color="transparent"
-                    className={
-                      classes.navLink + " " + classes.socialIconsButton
-                    }
-                  >
-                    <i
-                      className={
-                        classes.socialIcons +
-                        " " +
-                        classes.marginRight5 +
-                        " fab fa-instagram"
-                      }
-                    />{" "}
-                    Instagram
+                    Github
                   </Button>
                 </ListItem>
               </List>
